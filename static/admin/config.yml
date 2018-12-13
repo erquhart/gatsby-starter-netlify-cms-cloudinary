@@ -2,7 +2,11 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: erquhart
+    api_key: 293667689287914
 public_folder: /img
 
 collections:
